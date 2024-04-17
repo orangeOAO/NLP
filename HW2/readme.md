@@ -3,8 +3,18 @@
 bash setup.sh
 ```
 
-## process
-要先把word2vec.model產出來
+## Process
+
+### Get training data
 ```bash=
-python3 -m pre-train.py
+wget http://thinknook.com/wp-content/uploads/2012/09/Sentiment-Analysis-Dataset.zip
+unzip Sentiment-Analysis-Dataset.zip
+```
+### Create pre-train model
+```bash=
+python3 pre-train.py
+```
+### Main
+```bash=
+python3 main.py
 ```

@@ -10,7 +10,7 @@ matplotlib.use('Agg')
 model = Word2Vec.load("my_word2vec_model.model")
 
 words = list(model.wv.key_to_index)[1:100]
-word_vectors = np.array([model.wv[word] for word in words if word in model.wv])
+word_vectors = np.array([model.wv[word] for word in words])
 
 pca = PCA(n_components=2)
 X = pca.fit_transform(word_vectors)

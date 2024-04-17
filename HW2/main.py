@@ -9,7 +9,7 @@ import os
 matplotlib.use('Agg')
 model = Word2Vec.load("my_word2vec_model.model")
 
-words = ['king', 'queen', 'man', 'woman', 'paris', 'france', 'berlin', 'germany', 'car', 'bus', 'orange', 'girl']
+words = list(model.wv.key_to_index)[1:100]
 word_vectors = np.array([model.wv[word] for word in words if word in model.wv])
 
 pca = PCA(n_components=2)

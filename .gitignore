@@ -1,3 +1,5 @@
 *.pptx
 *.csv
-HW1/NLP_env/
+*/NLP_env/
+*.model
+*.npy

@@ -9,7 +9,7 @@
     2. re
     3. pandas
 ## data
-From Sentiment Analysis Dataset.csv
+From Sentiment Analysis Dataset.csv (第一次功課的資料集)
 ```python=
 X_train, X_test, y_train, y_test = train_test_split(X_train, y_train, test_size=0.2, random_state=42)
 ```

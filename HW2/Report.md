@@ -22,14 +22,17 @@ Python 3.10.1
 3. scikit-learn
 ```
 
+## Installation flow
 
+Follow the instructions in the Readme.md
 
 ## data
 
-From Sentiment Analysis Dataset.csv
+From Sentiment Analysis Dataset.csv (第一次功課的dataset)
 
 ## Result
 
-![result](/Users/shaneliu/Desktop/HW2/result.png)
+![result](result.png)
 
-![result](/Users/shaneliu/Desktop/HW2/world_vector.png)
+## Word2Vec(2-D)
+![result](world_vector.png)

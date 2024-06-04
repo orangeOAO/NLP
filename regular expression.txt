@@ -1,0 +1,11 @@
+^[a-z]*@
+
+k98007@2jgas.com
+k
+ld
+asdb
+213b
+the faster they ran, the faster we ran
+the faster they ran, the faster we ate
+the faster they run, the faster we run
+/the (.*)er they (.*), the \1er we \2/
